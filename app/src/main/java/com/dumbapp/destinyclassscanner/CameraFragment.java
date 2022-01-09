@@ -99,7 +99,8 @@ public class CameraFragment extends Fragment {
 
     private void initializeShutterButton() {
         binding.shutterButton.setOnClickListener(view -> {
-
+            viewModel.setCapture(getPreviewBitmap());
+            Navigation.findNavController(requireView()).navigate(R.id.result_fragment);
         });
     }
 

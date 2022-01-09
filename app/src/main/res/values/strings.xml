@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Destiny Class Scanner</string>
     <string name="general_scan">scan</string>
+    <string name="result_text">CONGRATULATIONS! YOU ARE A %s!</string>
+    <string name="titan">TITAN</string>
+    <string name="warlock">WARLOCK</string>
+    <string name="hunter">HUNTER</string>
 </resources>
