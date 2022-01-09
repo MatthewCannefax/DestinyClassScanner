@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 
 import com.dumbapp.destinyclassscanner.databinding.FragmentHomeBinding;
 
@@ -41,8 +42,8 @@ public class HomeFragment extends Fragment {
     }
 
     private void initializeScanButton() {
-        binding.buttonGuide.setOnClickListener(view -> {
-
+        binding.scanButton.setOnClickListener(view -> {
+            Navigation.findNavController(requireView()).navigate(R.id.camera_fragment);
         });
     }
 }

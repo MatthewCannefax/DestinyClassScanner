@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mcann/AndroidStudioProjects/DestinyClassScanner/app/src/main/res/drawable/ripple_oval.xml" value="0.2794871794871795" />
+        <entry key="..\:/Users/mcann/AndroidStudioProjects/DestinyClassScanner/app/src/main/res/drawable/shutter_circle.xml" value="0.2794871794871795" />
         <entry key="..\:/Users/mcann/AndroidStudioProjects/DestinyClassScanner/app/src/main/res/layout/activity_main.xml" value="0.2677083333333333" />
         <entry key="..\:/Users/mcann/AndroidStudioProjects/DestinyClassScanner/app/src/main/res/layout/fragment_camera.xml" value="0.26296296296296295" />
         <entry key="..\:/Users/mcann/AndroidStudioProjects/DestinyClassScanner/app/src/main/res/layout/fragment_home.xml" value="0.26296296296296295" />
