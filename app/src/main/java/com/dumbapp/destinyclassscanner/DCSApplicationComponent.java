@@ -9,8 +9,6 @@ import dagger.Component;
 public interface DCSApplicationComponent {
     void inject(MainActivity activity);
 
-    void inject(SplashFragment fragment);
-
     void inject(HomeFragment fragment);
 
     void inject(CameraFragment fragment);

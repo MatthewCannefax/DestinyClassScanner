@@ -2,6 +2,8 @@ package com.dumbapp.destinyclassscanner;
 
 import android.os.Binder;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,6 +27,7 @@ public class HomeFragment extends Fragment {
         ((DCSApplication) requireActivity().getApplicationContext()).getDCSApplicationComponent().inject(this);
         super.onCreate(savedInstanceState);
         viewModel = new ViewModelProvider(requireActivity()).get(MainViewModel.class);
+
     }
 
     @Nullable
@@ -37,7 +40,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+        new Handler(Looper.getMainLooper()).postDelayed(() -> binding.splashOverlay.setVisibility(View.GONE), 2500);
         initializeScanButton();
     }
 

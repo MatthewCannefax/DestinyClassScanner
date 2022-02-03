@@ -5,4 +5,5 @@
     <string name="titan">TITAN</string>
     <string name="warlock">WARLOCK</string>
     <string name="hunter">HUNTER</string>
+    <string name="face_not_found">Sorry, your face was not found. Please try again.</string>
 </resources>
